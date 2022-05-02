@@ -101,8 +101,6 @@ class ArithmeticCoding:
             stage_min = stage_probs[msg_term][0]
             stage_max = stage_probs[msg_term][1]
 
-
-
             decoder.append(stage_probs)
 
         stage_probs = self.process_stage(probability_table, stage_min, stage_max)

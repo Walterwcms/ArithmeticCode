@@ -38,6 +38,8 @@ class ArithmeticCoding:
         last_stage_max = max(last_stage_values)
         return (last_stage_min + last_stage_max) / 2
 
+
+    #------------(02/05/2022)   em implementacao . . . -------------------------
     def process_stage(self, probability_table, stage_min, stage_max):
         """
         processa o encode e decode
@@ -51,6 +53,8 @@ class ArithmeticCoding:
             stage_probs[term] = [stage_min, cum_prob]
             stage_min = cum_prob
         return stage_probs
+    #-----------------------------------------------------------------------------
+
 
     def encode(self, msg, probability_table):
 
@@ -95,7 +99,7 @@ class ArithmeticCoding:
                 if value[0] <= encoded_msg <= value[1]:
                     break
 
-            # --------- poderia ficar no main :
+            # ------------------------------------------------------------
             decoded_msg = decoded_msg + msg_term
             cal = (encoded_msg - stage_min) / (stage_max - stage_min)
             print(decoded_msg + " ->intervalo:  " + str(cal))
@@ -116,5 +120,5 @@ class ArithmeticCoding:
 
 
 #----------------------WAITING FOR UPDATES:
-
                 # se conseguir melhorar algo, ou implementar alguma interface gráfica . . .
+

@@ -2,6 +2,7 @@
 # Universidade Técnica do Atlâtico (UTA)
 # Sitemas de Telecomunicacoes (Pratica 1)
 # Walter Dos Santos
+# wsantos@uta.cv
 #***********************************
 
 from decimal import Decimal
@@ -116,5 +117,4 @@ class ArithmeticCoding:
 
 #----------------------WAITING FOR UPDATES:
 
-                # se conseguir melhorar algo, ou implementar alguma interface gráfica
-                # envia um email: wsantos@uta.cv
+                # se conseguir melhorar algo, ou implementar alguma interface gráfica . . .

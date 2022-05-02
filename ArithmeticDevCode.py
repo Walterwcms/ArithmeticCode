@@ -92,11 +92,9 @@ class ArithmeticCoding:
                 if value[0] <= encoded_msg <= value[1]:
                     break
 
-            #-----------------------------------new edited--------------------------------------------------------------
             decoded_msg = decoded_msg + msg_term
             cal = (encoded_msg - stage_min) / (stage_max - stage_min)
             print(decoded_msg + " ->intervalo:  " + str(cal))
-            #-----------------------------------------------------------------------------------------------------------
 
             stage_min = stage_probs[msg_term][0]
             stage_max = stage_probs[msg_term][1]

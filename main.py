@@ -1,5 +1,6 @@
 #***********************************
-# Autor: Walter dos santos
+# Universidade Técnica do Atlâtico (UTA)
+# Walter dos santos
 #************************
 
 # SE COPIAR, PELO MENOS COLOCA O AUTOR COMO Ref. NÉ

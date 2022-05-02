@@ -1,4 +1,6 @@
 #************************************
+# Universidade Técnica do Atlâtico (UTA)
+# Sitemas de Telecomunicacoes (Pratica 1)
 # Walter Dos Santos
 #***********************************
 
@@ -92,9 +94,11 @@ class ArithmeticCoding:
                 if value[0] <= encoded_msg <= value[1]:
                     break
 
+            # --------- poderia ficar no main :
             decoded_msg = decoded_msg + msg_term
             cal = (encoded_msg - stage_min) / (stage_max - stage_min)
             print(decoded_msg + " ->intervalo:  " + str(cal))
+            #---------------------------------------------------------------
 
             stage_min = stage_probs[msg_term][0]
             stage_max = stage_probs[msg_term][1]
@@ -105,3 +109,12 @@ class ArithmeticCoding:
         decoder.append(stage_probs)
 
         return decoder, decoded_msg
+
+
+
+
+
+#----------------------WAITING FOR UPDATES:
+
+                # se conseguir melhorar algo, ou implementar alguma interface gráfica
+                # envia um email: wsantos@uta.cv

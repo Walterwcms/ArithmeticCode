@@ -51,7 +51,7 @@ for letra in dividir:
 print(str(bin(10)))
 
 
-#  wait for updates . . .
+#  waiting for updates . . .
 
 
 

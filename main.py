@@ -4,8 +4,6 @@
 # wsantos@uta.cv
 #************************
 
-#PELO MENOS COLOCA O AUTOR COMO Ref. NÉ
-
 #Em ArithmeticDevCode  tem as pricipais funcoes: encode e decode
 import ArithmeticDevCode
 
